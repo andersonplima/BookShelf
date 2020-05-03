@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Book Shelf</string>
+    <string name="splash_title">Book\nShelf</string>
+    <string name="no_content">Ainda não há livros na estante...</string>
+    <string name="book_image_content_description">Capa do livro</string>
+    <string name="read_image_content_description">Livro já lido</string>
+    <string name="category_hint">Categoria</string>
+    <string name="search_by_name_hint">Buscar</string>
+    <string name="image_button_search_content_description">Buscar livro no Google Books</string>
+    <string-array name="book_categories">
+        <item>Action and adventure</item>
+        <item>Art</item>
+        <item>Alternate history</item>
+        <item>Autobiography</item>
+        <item>Anthology</item>
+        <item>Biography</item>
+        <item>Chick lit</item>
+        <item>Book review</item>
+        <item>Children\'s</item>
+        <item>Cookbook</item>
+        <item>Comic book</item>
+        <item>Diary</item>
+        <item>Coming-of-age</item>
+        <item>Dictionary</item>
+        <item>Crime</item>
+        <item>Encyclopedia</item>
+        <item>Drama</item>
+        <item>Guide</item>
+        <item>Fairytale</item>
+        <item>Health</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Graphic novel</item>
+        <item>Journal</item>
+        <item>Historical fiction</item>
+        <item>Math</item>
+        <item>Horror</item>
+        <item>Memoir</item>
+        <item>Mystery</item>
+        <item>Prayer</item>
+        <item>Paranormal romance</item>
+        <item>Religion, spirituality, and new age</item>
+        <item>Picture book</item>
+        <item>Textbook</item>
+        <item>Poetry</item>
+        <item>Review</item>
+        <item>Political thriller</item>
+        <item>Science</item>
+        <item>Romance</item>
+        <item>Self help</item>
+        <item>Satire</item>
+        <item>Travel</item>
+        <item>Science fiction</item>
+        <item>True crime</item>
+        <item>Short story</item>
+        <item>Suspense</item>
+        <item>Thriller</item>
+        <item>Young adult</item>
+    </string-array>
+</resources>

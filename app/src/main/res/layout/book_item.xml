@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:baselineAligned="false"
+              android:layout_height="150dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="3"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBookImage"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBookImage">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/screen_background_light_transparent"
+                android:id="@+id/imageViewBookImage"
+                android:contentDescription="@string/book_image_content_description"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="false"
+                android:layout_marginTop="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"/>
+        <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp" app:srcCompat="@drawable/ic_eye_white_24dp"
+                android:id="@+id/imageViewRead"
+                android:scaleType="fitCenter" android:adjustViewBounds="true"
+                android:contentDescription="@string/read_image_content_description"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="7" android:gravity="center">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategory"
+                android:textSize="14sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAuthor"
+                android:textSize="16sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTitle"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>
